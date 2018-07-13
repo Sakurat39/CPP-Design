@@ -1,0 +1,76 @@
+  ChesscppCLR.ipinput.resources - Embedded, ContainedInManifestFile, 
+  ChesscppCLR.MainForm.resources - Embedded, ContainedInManifestFile, 
+  ChesscppCLR.ServerCreate.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ChesscppCLR, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ChesscppCLR.ipinput: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean finish : Public, Static
+    System.String ip : Public, Static
+    Int32 port : Public, Static
+Class socketspace.clientleave: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class socketspace.nulldelegate: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ChesscppCLR.ServerCreate: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean finish : Public, Static
+    System.String restr : Public, Static
+    Int32 cc : Public, Static
+Class ChesscppCLR.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form f1 IsByValue : Public, InitOnly
+    Boolean select : Public
+    System.Drawing.Image currselectchessima : Public
+    System.ValueType[,] clickabletable : Public
+    System.Windows.Forms.PictureBox[,] ps : Public
+    System.Drawing.Image trapic : Public
+    Compitition.fright currfright : Public, Static
+    Boolean frighting : Public, Static
+    Boolean netmode : Public, Static
+    socketspace.socketClient sc : Public, Static
+    socketspace.socketServer ss : Public, Static
+    chessDom.ChessCorlor net_color : Public, Static
+    Boolean servercreated : Public, Static
+    Boolean net_netmode : Public, Static
+    System.Net.Sockets.Socket targetsocket : Public, Static
+    Boolean begin : Public, Static
+  Methods:
+    createserver(Int32, String): PrivateScope, Public, HideBySig
+    serverreceive(): PrivateScope, Public, HideBySig
+    IntoNetmode(): PrivateScope, Public, Static, HideBySig
+    setcursor(): PrivateScope, Public, HideBySig
+    clickprocess(Int32, Int32): PrivateScope, Public, HideBySig

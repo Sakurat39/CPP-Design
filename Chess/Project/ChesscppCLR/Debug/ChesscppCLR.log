@@ -1,0 +1,25 @@
+﻿  MainForm.cpp
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(61): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(97): warning C4101: 'ex': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(123): warning C4947: 'System::Net::Dns::GetHostByName': marked as obsolete
+  c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(123): note: Message: 'GetHostByName is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202'
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(163): warning C4101: 'ex': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(187): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(214): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\ServerCreate.h(140): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(43): warning C4677: 'currfright': signature of non-private member contains assembly private type 'Compitition::fright'
+  c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\chessDomin.h(863): note: see declaration of 'Compitition::fright'
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(46): warning C4677: 'sc': signature of non-private member contains assembly private type 'socketspace::socketClient'
+  c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(15): note: see declaration of 'socketspace::socketClient'
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(47): warning C4677: 'ss': signature of non-private member contains assembly private type 'socketspace::socketServer'
+  c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\socket.h(111): note: see declaration of 'socketspace::socketServer'
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(1657): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(1744): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(1919): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(1920): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\MainForm.h(2207): warning C4101: 'e': unreferenced local variable
+c:\users\akb\documents\visual studio 2015\projects\chesscppclr\chesscppclr\chessdomin.h(440): warning C4715: 'chessDom::kiban::ifbossbethreadened': not all control paths return a value
+  ipinput.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  ChesscppCLR.vcxproj -> C:\Users\akb\documents\visual studio 2015\Projects\ChesscppCLR\Debug\ChesscppCLR.exe
+  ChesscppCLR.vcxproj -> C:\Users\akb\documents\visual studio 2015\Projects\ChesscppCLR\Debug\ChesscppCLR.pdb (Partial PDB)
